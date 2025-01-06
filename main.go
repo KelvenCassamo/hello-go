@@ -1,17 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"hello-go/basics"
+)
 
-// This is a single-line comment
 func main() {
 
-	/*
-		This
-		is
-		a
-		Multi-Line
-		comments
-	*/
+	basics.GoVariables()
+	basics.GoConstants()
+	basics.GoDataTypes()
+	basics.GoArrays()
+	basics.GoSlices()
+	basics.GoConditions()
+	basics.GoSwitch()
 
-	fmt.Println("Hello, World!")
 }
