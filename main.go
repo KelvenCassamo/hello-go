@@ -6,6 +6,7 @@ import (
 
 func main() {
 
+	basics.GoGreeting("Kelven")
 	basics.GoVariables()
 	basics.GoConstants()
 	basics.GoDataTypes()
@@ -13,5 +14,8 @@ func main() {
 	basics.GoSlices()
 	basics.GoConditions()
 	basics.GoSwitch()
+	basics.GoLoops()
+	basics.GoStructs()
+	basics.GoMaps()
 
 }
